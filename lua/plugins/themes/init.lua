@@ -8,4 +8,12 @@ return {
       require('base46').load_all_highlights()
     end,
   },
+
+  -- if u want nvchad's ui plugin :)
+  {
+    'NvChad/ui',
+    config = function()
+      require 'nvchad'
+    end,
+  },
 }

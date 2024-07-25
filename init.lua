@@ -16,7 +16,7 @@ for _, name in ipairs(integrations) do
   dofile(vim.g.base46_cache .. name)
 end
 --
--- require('base46').load_all_highlights() -- this compiles + loads hl
+require('base46').load_all_highlights() -- this compiles + loads hl
 require 'gon.autocmd'
 require 'gon.usercommand'
 require 'gon.mapping'

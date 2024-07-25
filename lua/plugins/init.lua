@@ -104,7 +104,7 @@ return {
 
   { import = 'plugins.editor.git' },
   { import = 'plugins.editor.oil' },
-  { import = 'plugins.editor.lualine' },
+  -- { import = 'plugins.editor.lualine' },
 
   -- { import = 'plugins.editor.starter' },
   -- { import = 'plugins.editor.rainbow' },

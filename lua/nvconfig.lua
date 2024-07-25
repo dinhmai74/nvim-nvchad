@@ -67,6 +67,7 @@ M.base46 = {
     'syntax',
     'treesitter',
     'telescope',
+    'statusline',
     -- 'bufferline',
   },
 }
